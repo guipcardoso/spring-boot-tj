@@ -16,6 +16,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.google.common.collect.Sets;
 
 @Entity
 public class Vara implements Serializable {
@@ -40,7 +41,7 @@ public class Vara implements Serializable {
 
 	@OneToMany(fetch=FetchType.LAZY, mappedBy = "vara")
 	@JsonIgnore
-	private Set<Processo> processos;
+	private Set<Processo> processos = Sets.newHashSet();
 	
 	protected Vara() {
 	}
@@ -66,6 +67,10 @@ public class Vara implements Serializable {
 		return comarca;
 	}
 
+	public void addProcesso(Processo processo) {
+		processos.add(processo);
+	}
+	
 	public Set<Processo> getProcessos() {
 		return processos;
 	}
