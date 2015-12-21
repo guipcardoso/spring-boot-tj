@@ -24,10 +24,10 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan
 @EnableAutoConfiguration
-public class SampleDataJpaApplication {
+public class DistribuicaoProcessosTJApplication {
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(SampleDataJpaApplication.class, args);
+		SpringApplication.run(DistribuicaoProcessosTJApplication.class, args);
 	}
 
 }

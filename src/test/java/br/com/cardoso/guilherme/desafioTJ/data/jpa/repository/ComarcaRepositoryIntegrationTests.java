@@ -27,12 +27,12 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
 
-import br.com.cardoso.guilherme.desafioTJ.data.jpa.SampleDataJpaApplication;
+import br.com.cardoso.guilherme.desafioTJ.data.jpa.DistribuicaoProcessosTJApplication;
 import br.com.cardoso.guilherme.desafioTJ.data.jpa.domain.Comarca;
 import br.com.cardoso.guilherme.desafioTJ.data.jpa.domain.Competencia;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = SampleDataJpaApplication.class)
+@SpringApplicationConfiguration(classes = DistribuicaoProcessosTJApplication.class)
 @Transactional(readOnly = true)
 public class ComarcaRepositoryIntegrationTests {
 

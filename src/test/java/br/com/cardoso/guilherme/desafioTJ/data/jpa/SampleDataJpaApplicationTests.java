@@ -17,7 +17,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = SampleDataJpaApplication.class)
+@SpringApplicationConfiguration(classes = DistribuicaoProcessosTJApplication.class)
 @WebAppConfiguration
 @ActiveProfiles("scratch")
 public class SampleDataJpaApplicationTests {
