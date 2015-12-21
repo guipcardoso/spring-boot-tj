@@ -1,6 +1,10 @@
 # Desafio TJ - Distribuição de Processos
 
+Para rodar você pode fazer de duas maneiras:
 
+1) Baixar o projeto e importar como um Projeto Maven no Eclipse, procurar a classe DistribuicaoProjetoTJApplication.java e usar o comando Run As -> Java Application
+
+2) Com o maven instalado, através do terminal entre na pasta principal do projeto e rode o comando: mvn spring-boot:run
 
 URL GET para consulta de processo:
 http://localhost:8080/processo/{numeroUnico}
@@ -20,12 +24,19 @@ Comarca cadastrada a ser utilizada será a de id = 1
 Possíveis Competências para a Classe Processual:
 
 FEITOS_GERAIS_CIVEIS
+
 FAMILIA
+
 FAZENDA
+
 INFANCIA
+
 DIRETORIA
+
 FALENCIA
+
 JUIZADO_ESPECIAL_CIVEL
+
 JUIZADO_ESPECIAL_CRIME
 
 
