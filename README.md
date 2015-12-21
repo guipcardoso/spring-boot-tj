@@ -6,6 +6,9 @@ Para rodar você pode fazer de duas maneiras:
 
 2) Com o maven instalado, através do terminal entre na pasta principal do projeto e rode o comando: mvn spring-boot:run
 
+_______________________________________
+Para os testes dos end-point da API Rest, aconselho utilizar o app do Chrome chamado 'Postman', mas qualquer um outro para testes da mesma finalidade servem também.
+
 URL GET para consulta de processo:
 http://localhost:8080/processos/{numeroUnico}
 
