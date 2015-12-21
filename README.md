@@ -20,12 +20,19 @@ Comarca cadastrada a ser utilizada será a de id = 1
 Possíveis Competências para a Classe Processual:
 
 FEITOS_GERAIS_CIVEIS
+
 FAMILIA
+
 FAZENDA
+
 INFANCIA
+
 DIRETORIA
+
 FALENCIA
+
 JUIZADO_ESPECIAL_CIVEL
+
 JUIZADO_ESPECIAL_CRIME
 
 
