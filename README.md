@@ -7,10 +7,10 @@ Para rodar você pode fazer de duas maneiras:
 2) Com o maven instalado, através do terminal entre na pasta principal do projeto e rode o comando: mvn spring-boot:run
 
 URL GET para consulta de processo:
-http://localhost:8080/processo/{numeroUnico}
+http://localhost:8080/processos/{numeroUnico}
 
 URL POST para cadastro de um novo processo:
-http://localhost:8080/processo/
+http://localhost:8080/processos/
 
 Passando no body um JSON no formato do exemplo:
 

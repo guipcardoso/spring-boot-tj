@@ -1,7 +1,6 @@
 package br.com.cardoso.guilherme.desafioTJ.data.jpa;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import org.junit.Before;
@@ -33,10 +32,9 @@ public class SampleDataJpaApplicationTests {
 	}
 
 	@Test
-	public void testHome() throws Exception {
+	public void testUrlGetProcesso() throws Exception {
 
-		this.mvc.perform(get("/processo/1"))
-				.andExpect(status().isOk())
-				.andExpect(content().string("{\"numeroUnico\":1,\"classeProcessual\":[\"FAMILIA\",\"FEITOS_GERAIS_CIVEIS\"],\"vara\":{\"id\":1,\"nome\":\"Vara 1 de Cuiabá\",\"competencias\":[\"INFANCIA\",\"FAMILIA\",\"FEITOS_GERAIS_CIVEIS\",\"FAZENDA\"],\"comarca\":{\"id\":1,\"nome\":\"Cuiabá\",\"competenciasDeTodasVaras\":[\"JUIZADO_ESPECIAL_CRIME\",\"INFANCIA\",\"FAMILIA\",\"FALENCIA\",\"JUIZADO_ESPECIAL_CIVEL\",\"FEITOS_GERAIS_CIVEIS\",\"FAZENDA\",\"DIRETORIA\"]},\"quantidadeDeProcessos\":3}}"));
+		this.mvc.perform(get("/processos/1"))
+				.andExpect(status().isOk());
 	}
 }

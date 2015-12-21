@@ -28,7 +28,7 @@ import br.com.cardoso.guilherme.desafioTJ.data.jpa.domain.Processo;
 import br.com.cardoso.guilherme.desafioTJ.data.jpa.service.ProcessoService;
 
 @RestController
-@RequestMapping("/processo")
+@RequestMapping("/processos")
 public class ProcessoApiController {
 
 	@Autowired
