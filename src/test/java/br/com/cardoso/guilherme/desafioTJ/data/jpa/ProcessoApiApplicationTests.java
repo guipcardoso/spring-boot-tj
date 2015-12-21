@@ -21,7 +21,7 @@ import org.springframework.web.context.WebApplicationContext;
 @SpringApplicationConfiguration(classes = DistribuicaoProcessosTJApplication.class)
 @WebAppConfiguration
 @ActiveProfiles("scratch")
-public class SampleDataJpaApplicationTests {
+public class ProcessoApiApplicationTests {
 
 	@Autowired
 	private WebApplicationContext context;
