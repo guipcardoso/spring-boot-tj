@@ -39,5 +39,4 @@ JUIZADO_ESPECIAL_CIVEL
 
 JUIZADO_ESPECIAL_CRIME
 
-
 Alterar arquivo import.sql do projeto e recompilar se quiser adicionar novas varas e comarcas, seguindo o mesmo padrão mostrado no arquivo.
